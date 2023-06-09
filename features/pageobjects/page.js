@@ -8,10 +8,4 @@ export default class Page {
     open () {
         return browser.url(`https://www.digitalunite.com/practice-webform-learners`)
     }
-
-    setValue(selector, value) {
-        const element = LoginPage[selector]
-        console.log(element);
-        $(element).setValue(value)
-    }
 }
